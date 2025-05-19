@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portpolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/deb2ce3799.js" crossorigin="anonymous"></script> 
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="https://cdn.textstudio.com/output/sample/normal/1/7/1/7/divya-logo-802-27171.png" alt="">
+                 
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Portfolio</a></li>
+                    <li><a href="#portfolio">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Learner</p>
+                <h1>Hi, I'm <em><span>Divya Bomble</span></em><br> from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------about------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row"> 
+                <div class="about-col-1">
+                    <img src="https://images.pexels.com/photos/10935417/pexels-photo-10935417.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p> Lorem, ipsum dolor sit al repudiandae nisi consectetur nostrum nam molestias. Maiores hic illo molestias voluptate maxime enim accusamus quas iusto, minima fugit doloribus magnam. Fuga quae voluptatibus at similique fugiat eveniet, aut autem!ipsum dolor sit amet consectetur adipisicing elit. Alias esse eaque quis eligendi ullam atque voluptate possimus. Repudiandae maxime qui, molestias labore necessitatibus culpa? Eius beatae adipisci perferendis quis odio.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Mathematical Thinking</span><br>Especially discrete mathematics and logic</li>
+                            <li><span>Programming Language</span><br>C and Basic Python</li>
+                            <li><span>Creativity</span><br>Innovative thinking for problem-solving</li>
+                        </ul>
+                    </div>
+                    <div id="medal"> 
+                        <img src="C:\Users\Divya\Pictures\Screenshot 2025-04-12 194227.png" alt="">
+                    </div>
+
+                    
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>passed 10th class from JAWAHAR NAVODAYA VIDYALAYA ,Takli Dhokeshwar.</li>
+                            <li><span>2024</span><br>12th passed from Nagar College .</li>
+                            <li><span>2024</span><br>Now studying in MIT AOE at Alandi.</li>
+                        </ul>
+
+                    </div>        
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------services-------------------------- -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, cum.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, cum.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, cum.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+
+            </div>
+        </div>
+     </div>
+     <!-- -----------------------portfolio---------------------- -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list"> 
+                <div class="work"> 
+                    <img src="https://cdn.wedevs.com/uploads/2021/04/Best-project-management-software-for-web-designers.png" >
+                    <div class="layer">
+                        <h3>My Portfolio</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, ut.</p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="work"> 
+                    <img src="https://m.media-amazon.com/images/I/81dRWQTnRCL._AC_UF1000,1000_QL80_.jpg" alt="">
+                     
+                    <div class="layer">
+                        <h3>My First Linux Project</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, ut.</p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="work"> 
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4biyNhdsvGQ-TzRYYkR4aMapk8-F8htQEWw&s" alt="">
+                    <div class="layer">
+                        <h3>Math Model</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, ut.</p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> divyabomble82@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone-volume"></i> +918263819794</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="C:\Users\Divya\Documents\Nested Sets in Python.pptx" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">hello</span>
+                </div> 
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright  @ Divya. Made with by <i class="fa-solid fa-heart"></i> Easy Tutorials</p>
+        </div>
+
+    </div>
+    <div id="medal"> 
+        <img src="C:\Users\Divya\Pictures\Screenshot 2025-04-12 194227.png" alt="">
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzeNHt8kTAVMQvPulLYPku8zKmvGMm-ruVi-cLPXM9xGmVkrnqHnPXI7sB5eNaHeXUo/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
